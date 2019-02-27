@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:300');
+
+* { padding: 0; margin: 0; border: 0; }
+
+.body {
+    width: auto;
+    margin: 10px auto;
+    padding: 0;
+    background: rgb(0, 0, 0);
+   font-family: 'Teko', sans-serif;
+} 
+
+.container {
+    display: block;
+    background-color: rgb(111, 140, 174);
+    width: 900px;
+    padding: 0;
+    margin: auto;
+    font-family: 'Teko', sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.title {
+    background-color: rgb(131, 160, 198);
+    height: 50px;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    font-size: large;
+    text-transform: uppercase; 
+}
+
+.data {
+	display: flex;
+	width: 100%;
+}
+
+.data-items {
+	background: linear-gradient(rgb(128, 152, 189), rgb(84, 110, 137));
+	height: 150px;
+	border-right: 2px solid rgb(93, 118, 149);
+    border-bottom: 2px solid rgb(93, 118, 149);
+    /* border: 1px solid rgb(93, 118, 149); */
+	margin: 1px 0 0 2px;
+	width: 20%;
+}
+
+
+.positioning {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+}
+
+.positioning-communication {
+    background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+    height: 150px;
+    border-right: 2px solid rgb(93, 118, 149);
+    border-bottom: 2px solid rgb(93, 118, 149);
+    margin: 2px 0 0 2px;
+    width: 40%;
+}
+
+.picture_graph_0 {
+height: 150px; 
+width: 100%;   
+}
+
+.positionong-computers {
+    background: linear-gradient(rgb(129, 152, 190), rgb(84, 110, 138));
+    height: 150px;
+    border-right: 2px solid rgb(93, 118, 149);
+    border-bottom: 2px solid rgb(93, 118, 149);
+    margin: 2px 0 0 2px;
+    width: 60%;
+}
+
+.systems {
+display: flex;
+flex-direction: row;
+width: 100%;
+margin: 0;
+}
+
+.systems-all {
+background: linear-gradient(rgb(129, 152, 190), rgb(84, 110, 138));
+height: 280px;
+border-right: 2px solid rgb(93, 118, 149);
+border-bottom: 2px solid rgb(93, 118, 149);
+margin: 2px 0 0 2px;
+width: 20%;
+}
+
+.systems-data {
+display: flex;
+flex-direction: column;
+width: 80%;
+}
+
+.systems-options {
+display: flex;
+flex-direction: row;
+height: 230px;
+width: 100%;
+}
+
+.systems-thrusters {
+background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+height: 230px;
+border-right: 2px solid rgb(93, 118, 149);
+margin: 2px 0 0 2px;
+width: 60%;    
+}
+
+.systems-batteries {
+background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+height: 230px;
+border-right: 2px solid rgb(93, 118, 149);
+margin: 2px 0 0 2px;
+width: 40%;    
+}
+
+.systems-buttons {
+display: flex;
+flex-direction: row;
+}
+
+.systems-knob {
+background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+height: 50px;
+border-right: 2px solid rgb(93, 118, 149);
+border-bottom: 2px solid rgb(93, 118, 149);
+margin: 4px 0 0 2px;
+width: 21%;    
+}
+
+.systems-knob-small {
+    background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+    height: 50px;
+    border-right: 2px solid rgb(93, 118, 149);
+    border-bottom: 2px solid rgb(93, 118, 149);
+    margin: 4px 0 0 2px;
+    width: 16%;    
+}
+
+
+
+.live-support {
+display: flex;
+flex-direction: column;
+height: 740px;    
+}
+
+.live-support-header {
+background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+height: 50px;
+border-right: 2px solid rgb(93, 118, 149);
+border-bottom: 2px solid rgb(93, 118, 149);
+margin: 2px 0 0 2px;
+width: 100%;
+}
+
+.live-support-graph-1 {
+display: flex;
+flex-direction: row;
+height: 300px;
+}
+
+.live-support-graph-2 {
+display: flex;
+flex-direction: row;
+height: 390px;
+}
+
+.graph-1 {
+background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+height: 292px;
+border-right: 2px solid rgb(93, 118, 149);
+border-bottom: 2px solid rgb(93, 118, 149);
+margin: 2px 0 0 2px;
+width: 70%;    
+}
+
+.picture_graph {
+height: 292px;
+width: 100%;   
+}
+
+.graph-2 {
+background: linear-gradient(rgb(127, 150, 188), rgb(83, 109, 137));
+height: 292px;
+border-right: 2px solid rgb(93, 118, 149);
+border-bottom: 2px solid rgb(93, 118, 149);
+margin: 2px 0 0 2px;
+width: 30%;    
+}
+
+.bottom-menu {
+display: flex;
+flex-direction: row;
+}
+
+.botton-one {
+background: linear-gradient(rgb(141, 196, 227), rgb(93, 118, 149));
+height: 50px;
+border-right: 2px solid rgb(93, 118, 149);
+border-bottom: 2px solid rgb(93, 118, 149);
+margin: 2px 0 0 2px;
+width: 16.6%;
+}
+
+
+
+.botton-two {
+background: linear-gradient(rgb(122, 147, 183), rgb(86, 113, 141));
+height: 50px;
+border-right: 2px solid rgb(93, 118, 149);
+border-bottom: 2px solid rgb(93, 118, 149);
+margin: 2px 0 0 2px;
+width: 16.6%;
+}
+
+.botton-three {
+background: rgb(83, 109, 137);
+height: 50px;
+/* border-right: 2px solid rgb(93, 118, 149);
+border-bottom: 2px solid rgb(93, 118, 149); */
+margin: 2px 0 0 2px;
+width: 16.6%;
+}
